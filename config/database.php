@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost';
-$db   = 'taller_php_final';
+$db   = 'taller_final';
 $user = 'root';
 $pass = '';
 $charset = 'utf8mb4';
