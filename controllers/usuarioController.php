@@ -10,7 +10,9 @@ switch ($accion) {
     case 'crear':
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $usuario->crear($_POST['nombre'], $_POST['email'], $_POST['bio'], $_POST['foto']);
-            header('Location: usuarioController.php');
+            header('Location: /taller-final/controllers/usuarioController.php');
+            exit;
+
         } else {
             include __DIR__ . '/../views/usuarios/crear.php';
         }
@@ -20,7 +22,9 @@ switch ($accion) {
         $id = $_GET['id'];
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $usuario->actualizar($id, $_POST['nombre'], $_POST['email'], $_POST['bio'], $_POST['foto']);
-            header('Location: usuarioController.php');
+            header('Location: /taller-final/controllers/usuarioController.php');
+            exit;
+
         } else {
             $datos = $usuario->obtenerPorId($id);
             include __DIR__ . '/../views/usuarios/editar.php';
@@ -30,11 +34,13 @@ switch ($accion) {
     case 'eliminar':
         $id = $_GET['id'];
         $usuario->eliminar($id);
-        header('Location: usuarioController.php');
+        header('Location: /taller-final/controllers/usuarioController.php');
+        exit;
+
         break;
 
     default:
         $usuarios = $usuario->obtenerTodos();
-        include __DIR__ . '/../views/usuarios/listar.php';
+        include __DIR__ . '/../views/usuarios/list.php';
         break;
 }

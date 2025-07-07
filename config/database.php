@@ -1,5 +1,7 @@
 <?php
 
+echo "Probando conexión...<br>";
+
 $host = 'localhost';
 $db   = 'taller_final';
 $user = 'root';
