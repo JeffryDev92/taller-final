@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Editar Curso</h1>
     <form method="POST" action="/taller-final/controllers/cursoController.php?accion=editar&id=<?= $datos['id'] ?>">
         <label>Nombre:</label>

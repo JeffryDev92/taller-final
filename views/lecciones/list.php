@@ -7,6 +7,7 @@
 
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Lecciones del Curso #<?= htmlspecialchars($curso_id) ?></h1>
     <a href="/taller-final/controllers/leccionController.php?accion=crear&curso_id=<?= $curso_id ?>">Crear Nueva Lección</a>
     <a href="/taller-final/controllers/cursoController.php">← Volver a Cursos</a>

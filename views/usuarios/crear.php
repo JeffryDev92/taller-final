@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Crear Usuario</h1>
     <form action="/taller-final/controllers/usuarioController.php?accion=crear" method="POST">
         <label>Nombre:</label>

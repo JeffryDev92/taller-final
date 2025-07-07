@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Crear Lección para el Curso #<?= htmlspecialchars($curso_id) ?></h1>
     <form method="POST" action="/taller-final/controllers/leccionController.php?accion=crear&curso_id=<?= $curso_id ?>">
         <label>Título:</label>

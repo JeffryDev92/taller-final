@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
+
     <h1>Lista de Usuarios</h1>
     <a href="/taller-final/controllers/usuarioController.php?accion=crear">Crear Nuevo Usuario</a>
     <table border="1" cellpadding="8">

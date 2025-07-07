@@ -7,6 +7,7 @@
 
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Lista de Estudiantes</h1>
     <a href="/taller-final/controllers/estudianteController.php?accion=crear">Crear Nuevo Estudiante</a>
     <table border="1" cellpadding="8">

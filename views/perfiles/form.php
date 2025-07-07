@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h2>Perfil de <?= htmlspecialchars($usuario['nombre']) ?></h2>
 
     <form method="post" action="">

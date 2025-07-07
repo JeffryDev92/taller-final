@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Crear Estudiante</h1>
     <form method="POST" action="/taller-final/controllers/estudianteController.php?accion=crear">
         <label>Nombre:</label>

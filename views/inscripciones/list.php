@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Cursos Inscritos del Estudiante #<?= htmlspecialchars($estudiante_id) ?></h1>
     <a href="/taller-final/controllers/inscripcionController.php?accion=inscribir&estudiante_id=<?= $estudiante_id ?>">Inscribir en Curso</a>
     <a href="/taller-final/controllers/estudianteController.php">← Volver a Estudiantes</a>

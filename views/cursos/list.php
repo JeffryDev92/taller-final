@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
+    <?php include __DIR__ . '/../layouts/navbar.php'; ?>
     <h1>Lista de Cursos</h1>
     <a href="/taller-final/controllers/cursoController.php?accion=crear">Crear Nuevo Curso</a>
     <table border="1" cellpadding="8">
