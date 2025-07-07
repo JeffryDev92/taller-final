@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Usuarios</title>
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h1>Lista de Usuarios</h1>

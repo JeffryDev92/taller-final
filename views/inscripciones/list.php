@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Cursos del Estudiante</title>
+    <title>Cursos del Estudiante</title>}<link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h1>Cursos Inscritos del Estudiante #<?= htmlspecialchars($estudiante_id) ?></h1>

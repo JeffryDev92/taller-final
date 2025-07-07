@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Estudiantes</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
+
 </head>
 <body>
     <h1>Lista de Estudiantes</h1>

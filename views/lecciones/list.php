@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Lecciones del Curso</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
+
 </head>
 <body>
     <h1>Lecciones del Curso #<?= htmlspecialchars($curso_id) ?></h1>

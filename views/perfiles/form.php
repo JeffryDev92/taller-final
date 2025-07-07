@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Perfil de Usuario</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h2>Perfil de <?= htmlspecialchars($usuario['nombre']) ?></h2>

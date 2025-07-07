@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Editar Curso</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h1>Editar Curso</h1>

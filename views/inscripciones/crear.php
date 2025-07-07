@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Inscribir en Curso</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h1>Inscribir Estudiante #<?= htmlspecialchars($estudiante_id) ?> en Curso</h1>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Crear Estudiante</title>
+    <link rel="stylesheet" href="/taller-final/assets/css/style.css">
 </head>
 <body>
     <h1>Crear Estudiante</h1>
