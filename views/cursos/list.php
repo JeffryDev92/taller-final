@@ -26,6 +26,7 @@
                     <td>
                         <a href="/taller-final/controllers/cursoController.php?accion=editar&id=<?= $c['id'] ?>">Editar</a> |
                         <a href="/taller-final/controllers/cursoController.php?accion=eliminar&id=<?= $c['id'] ?>" onclick="return confirm('¿Eliminar este curso?')">Eliminar</a>
+                        <a href="/taller-final/controllers/leccionController.php?curso_id=<?= $c['id'] ?>">Ver Lecciones</a>
                     </td>
                 </tr>
             <?php endforeach ?>
